@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-style-1: #00B500; 
+    --color-style-button: #00FF00; 
+}
