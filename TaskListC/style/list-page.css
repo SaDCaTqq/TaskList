@@ -1,0 +1,42 @@
+.conteiner-anchors ul li:nth-child(1){
+    border: solid;
+    background-color: var(--color-style-green);
+}
+
+.conteiner-page-name h1{
+    background-color: var(--color-style-green);
+}
+
+.conteiner-tasks {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.conteiner-task {
+    border: solid transparent;
+    border-bottom: solid;
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+    padding-left: 0px;
+    height: 80px;
+}
+.conteiner-task:hover {
+    border: solid;
+}
+.conteiner-task input {
+    min-width: 50px;
+    margin: 5px;
+}
+
+.task-desc p:first-child{
+    font-size: 20px;
+    font-weight: 700;
+}
+.task-desc p:last-child {
+    font-size: 15px;
+    overflow: hidden;
+    max-height: 35px;
+}
